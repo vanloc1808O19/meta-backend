@@ -9,6 +9,7 @@ django = "*"
 djangorestframework = "*"
 djoser = "==2.1.0"
 django-filter = "*"
+isort = "*"
 
 [dev-packages]
 

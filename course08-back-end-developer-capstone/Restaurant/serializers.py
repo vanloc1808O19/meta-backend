@@ -1,6 +1,8 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
-from .models import Booking, Category, MenuItem, Cart, Order, OrderItem
+
+from .models import Booking, Cart, Category, MenuItem, Order, OrderItem
+
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
